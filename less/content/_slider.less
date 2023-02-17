@@ -1,0 +1,126 @@
+.navbar{
+    margin-top: 30px;
+    &-inner{
+        display: flex;
+        justify-content: center;
+        button{
+            background-color: @bg-btn;
+            
+            border: none;
+            width: 106px;
+            height: 40px;
+            a{
+                color: #ffffff;
+            }
+        }
+        .ads-1-content{
+            position: relative;
+            overflow: hidden;
+            width: 750px;
+            height: 560px;
+            // background-color: @color-main;
+            background-color: @bg-product;
+            button{
+                position: absolute;
+                bottom: 27%;
+                right: 12.5%;
+            }
+        }
+        .ads-1-img{
+            width: 375px;
+            position: absolute;
+            left: -4%;
+            top: 4%;
+        }
+        .ads-1-title{
+            font-family: 'Pacifico';
+            font-size: 30px;
+            position: absolute;
+            bottom: 35%;
+            right: 12.5%;
+        }
+        &-right{
+            margin-left: 30px;
+            img{    
+                width: 360px;
+            }
+        
+            .ads-2-content{
+                width: 360px;
+                height: 200px;
+                background-color: @bg-ads-2;
+                overflow: hidden;
+                position: relative;
+                
+                .ads-2-img{
+                    z-index: 2;
+                    position: absolute;
+                    width: 480px;
+                    right: -10%;
+                    top: -74%;
+                }
+                .border-title{
+                    border-top: 1px solid @bg-button-add-to-cart;
+                    border-left: 1px solid @bg-button-add-to-cart;
+                    border-right: 1px solid @bg-button-add-to-cart;
+                    width: 300px;
+                    height: 130px;
+                    z-index: 1;
+                    position: absolute;
+                    bottom: 17.5%;
+                    left: 8.333333%;
+                }
+                .ads-2-title{
+                    
+                    width: 300px;
+                    height: 130px;
+                    z-index: 3;
+                    position: absolute;
+                    bottom: 17.5%;
+                    left: 8.333333%;
+                    &-inner{
+                        padding: 16.2% 0 0 8.333%;
+                    }
+                    &-top{
+                        font-size: 20px;
+                    }
+                    &-bottom{
+                        font-family: 'Montserrat-Bold';
+                        font-size: 20px;
+                    }
+                }  
+            }
+
+            
+            
+            .ads-3-content{
+                margin-top: 30px;
+                height: 330px;
+                overflow: hidden;
+                position: relative;
+                .ads-3-img{
+                    position: absolute;
+                    width: 682px;
+                }
+                .ads-3-title{
+                    position: absolute;
+                    left: 11.11%;
+                    top: 36.23%;
+                    &-top{
+                        font-size: 18px;
+                    }
+                    &-bottom{
+                        font-family: 'Montserrat-Bold';
+                        font-size: 20px;
+                    }
+                }
+                button{
+                    position: absolute;
+                    left:11.11%;
+                    bottom: 33.33%;
+                }
+            }
+        }
+    }
+    
+}

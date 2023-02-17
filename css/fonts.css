@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../../fonts/Montserrat/static/Montserrat-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url("../fonts/Montserrat/static/Montserrat-Bold.ttf") format('truetype');
+    font-weight: 400;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url("../fonts//Pacifico/Pacifico-Regular.ttf") format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../fonts//Open_Sans/static/OpenSans/OpenSans-Regular.ttf") format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    /* font-size: 30px; */
+}
+
+
+@font-face {
+    font-family: 'Open Sans Bold';
+    src: url("../fonts//Open_Sans/static/OpenSans/OpenSans-Bold.ttf") format('truetype');
+    font-weight: 400;
+    font-style: bold;
+    /* font-size: 30px; */
+}
+

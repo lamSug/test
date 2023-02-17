@@ -1,0 +1,117 @@
+.footer{
+    background-color: @bg-header;
+    a{
+        color: @color-header;    
+        :hover{
+            text-decoration: underline;
+            color: @bg-button-add-to-cart;
+        }
+    }
+    .about-mobile{
+        display: none;
+        .detail{
+            text-align: center;
+        }
+        .social {
+            text-align: center;
+            ul li{
+                display: inline-block;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+        }
+    }
+    color: @color-header;
+    .title{
+        
+        color: @bg-button-add-to-cart;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+
+    .info{
+        display: flex;
+        justify-content: space-between;
+        .about{
+            width: 270px;
+            .social{
+                margin-top: 50px;
+                margin-right: 10px;
+                
+                font-size: 16px;
+                ul li{
+                    display: inline-block;
+                    margin-right: 15px;
+                }
+            }
+        }
+        .navigation{
+            width: 370px;
+            // margin-left: 130px;
+            a:hover{
+                text-decoration: underline;
+                color: @bg-button-add-to-cart;
+            }
+            .content{
+                display: flex;
+                ul li{
+                    margin-bottom: 15px;
+                    
+                }
+            }
+            &-left{
+                width: 100px;
+            }
+            &-right{
+                margin-left: 100px;
+            }
+        }
+        .location{
+            .title{
+                border-bottom: 1px solid @color-header;
+            }
+            .icon{
+                margin-right: 13px;
+            }
+            // margin-left: 100px;
+            .map{
+                a{
+                    display: flex;    
+                }
+                
+            }
+            .phone{
+                a{
+                    display: flex;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
+                
+            }
+            .mail{
+                a{
+                    display: flex;
+                }
+                
+            }
+
+        }
+    }
+    .copyright{
+        margin-top: 75px;
+        display: flex;
+        justify-content: space-between;
+
+        .heart{
+            color: @color-heart;
+        }
+        .word{
+            color: @bg-button-add-to-cart;
+        }
+
+        
+    }
+}
